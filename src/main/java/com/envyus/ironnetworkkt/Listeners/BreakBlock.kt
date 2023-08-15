@@ -11,6 +11,7 @@ class BreakBlock : Listener, org.bukkit.event.Listener {
     fun onPlayerJoin(event: PlayerJoinEvent){
 
         val p = event.player
+
         val teste = "zé da manga"
 
         p.sendMessage("doidao entrou no server $teste")
