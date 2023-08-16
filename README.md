@@ -1,3 +1,3 @@
 # IronNetworkKT
 
-im using this for learn Kotlin, with spigot API.
+im using this to learn Kotlin, with spigot API.
