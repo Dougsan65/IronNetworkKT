@@ -6,3 +6,6 @@ commands:
   teleport:
     description: Teleport
     usage: /<command>
+  diamantes:
+    description: ganha diamante
+    usage: /<command> (quantity)

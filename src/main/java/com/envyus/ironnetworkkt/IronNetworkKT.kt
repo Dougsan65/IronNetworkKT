@@ -1,11 +1,14 @@
 package com.envyus.ironnetworkkt
 
+import GiveItems
 import com.envyus.ironnetworkkt.Commands.TeleportCommand
 import com.envyus.ironnetworkkt.Listeners.BreakBlock
 import com.envyus.ironnetworkkt.Listeners.LeaveJoinListener
 import org.bukkit.Bukkit
 import org.bukkit.ChatColor
 import org.bukkit.Color
+import org.bukkit.command.Command
+import org.bukkit.command.CommandSender
 import org.bukkit.plugin.java.JavaPlugin
 import java.net.http.WebSocket.Listener
 
@@ -21,6 +24,7 @@ class IronNetworkKT : JavaPlugin() {
 
         // Commands Implements
         getCommand("teleport")?.setExecutor(TeleportCommand())
+        getCommand("diamantes")?.setExecutor((GiveItems()))
 
         //Listeners Implements
         val breakBlock = BreakBlock()
@@ -32,5 +36,9 @@ class IronNetworkKT : JavaPlugin() {
     override fun onDisable() {
         // Plugin shutdown logic
         sendColoredMessageToConsole("&8Iron Network &bplugin in &1Kotlin &cwas disabled")
+    }
+
+    override fun onCommand(sender: CommandSender, command: Command, label: String, args: Array<out String>): Boolean {
+        return super.onCommand(sender, command, label, args)
     }
 }
