@@ -38,7 +38,4 @@ class IronNetworkKT : JavaPlugin() {
         sendColoredMessageToConsole("&8Iron Network &bplugin in &1Kotlin &cwas disabled")
     }
 
-    override fun onCommand(sender: CommandSender, command: Command, label: String, args: Array<out String>): Boolean {
-        return super.onCommand(sender, command, label, args)
-    }
 }

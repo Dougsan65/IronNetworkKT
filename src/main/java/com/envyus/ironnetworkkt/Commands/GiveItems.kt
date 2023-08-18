@@ -28,7 +28,7 @@ class GiveItems : CommandExecutor {
                 sender.sendMessage("qq tu fez maluco")
             }
         }else{
-            Bukkit.getConsoleSender().sendMessage("O ccmando só pode ser enviado por jogadores")
+            Bukkit.getConsoleSender().sendMessage("O comando só pode ser enviado por jogadores")
         }
         return true
     }
