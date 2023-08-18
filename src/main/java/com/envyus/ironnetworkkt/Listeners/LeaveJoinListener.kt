@@ -11,7 +11,7 @@ class LeaveJoinListener : Listener, org.bukkit.event.Listener {
     fun onPlayerJoin(e: PlayerJoinEvent){
         val p = e.player
 
-        fun sendColoredMessageFromPlayer(message: String) {
+        fun sendColoredMessageFromPlayer(message: String) { //Função para comentar cores no console facilmente
             val coloredMessage = ChatColor.translateAlternateColorCodes('&', message)
             p.sendMessage(coloredMessage)
         }
