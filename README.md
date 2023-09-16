@@ -1,3 +1,18 @@
-# IronNetwork Kotlin
-<h3>Using this project to learn Kotlin, using Spigot API.
-<br><br><br><img src="https://skillicons.dev/icons?i=kotlin" />
+
+# Iron Network
+
+Plugin for minecraft
+
+
+## Referência
+
+ - [Bukkit Documentation API](https://quotes-github-readme.vercel.app/api?type=central&theme=radical)
+
+
+
+## Autores
+
+- [@dougsan65](https://github.com/Dougsan65)
+
+
+<br><img src="https://skillicons.dev/icons?i=kotlin" />
